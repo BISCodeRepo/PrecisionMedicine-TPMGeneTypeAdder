@@ -30,7 +30,7 @@ TPM을 계산하는 데 사용한 GTF파일과 인풋 GTF파일의 버전이 다
 "ENSG00000001497"	"ENSG00000001497.16"	"LAS1L"	6.53869478056353 <br>
 
 ## Output file format (tab-delimiter)
-"gene_id"	"gene_id_from_count"	"gene_name"	"tpm" <br>
+"gene_id"	"gene_id_from_count"	"gene_name"	"tpm" "gene_type"<br>
 "ENSG00000000003"	"ENSG00000000003.15"	"TSPAN6"	6.50783847486202	"protein_coding" <br>
 "ENSG00000000005"	"ENSG00000000005.6"	"TNMD"	0.05883036057964	"protein_coding" <br>
 "ENSG00000000419"	"ENSG00000000419.12"	"DPM1"	1.76355733912858	"protein_coding" <br>
