@@ -63,7 +63,7 @@ public class TPMGeneTypeAdder {
 			String header = BR.readLine();
 			String line = null;
 			
-			BW.append(header);
+			BW.append(header+"\t\"gene_type\"");
 			BW.newLine();
 			while((line = BR.readLine()) != null) {
 				String[] fields = line.split("\t");
